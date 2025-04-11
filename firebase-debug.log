@@ -1,0 +1,49 @@
+[debug] [2025-04-11T10:40:41.617Z] ----------------------------------------------------------------------
+[debug] [2025-04-11T10:40:41.621Z] Command:       /nix/store/ixbb20farqh1f4fqbmsn6b1ixn8mc8ij-nodejs-20.18.1/bin/node /nix/store/b9a1wqzb1vkh5xd2mrp196csvbgv8j13-firebase-tools-14.0.1/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-04-11T10:40:41.621Z] CLI Version:   14.0.1
+[debug] [2025-04-11T10:40:41.621Z] Platform:      linux
+[debug] [2025-04-11T10:40:41.621Z] Node Version:  v20.18.1
+[debug] [2025-04-11T10:40:41.622Z] Time:          Fri Apr 11 2025 10:40:41 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-04-11T10:40:41.622Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-11T10:40:41.629Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-11T10:40:41.629Z] > authorizing via signed-in user (deepak@aivibes.cloud)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/neblify
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-11T10:40:55.482Z] Checked if tokens are valid: true, expires at: 1744371347958
+[debug] [2025-04-11T10:40:55.483Z] Checked if tokens are valid: true, expires at: 1744371347958
+[debug] [2025-04-11T10:40:55.487Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-04-11T10:40:56.106Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-11T10:40:56.106Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project neblify (neblify) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-11T10:40:57.807Z] Checked if tokens are valid: true, expires at: 1744371347958
+[debug] [2025-04-11T10:40:57.807Z] Checked if tokens are valid: true, expires at: 1744371347958
+[debug] [2025-04-11T10:40:57.807Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/neblify [none]
+[debug] [2025-04-11T10:40:58.047Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/neblify 200
+[debug] [2025-04-11T10:40:58.047Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/neblify {"projectId":"neblify","projectNumber":"168156367806","displayName":"neblify","name":"projects/neblify","resources":{"hostingSite":"neblify"},"state":"ACTIVE","etag":"1_b0768153-c981-435a-9156-6358dee50eb2"}
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /home/user/neblify is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=292373244&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
